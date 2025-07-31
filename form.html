@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2> Kindly request to fill this form.</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="Suggestion">Suggestion:</label><br>
+        <textarea id="Suggestion" name="Suggestion" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="radio" value="class 11" name="class" id="class11">
+        <label for="class11">Class 11</label><br>
+        <input type="radio" value="class 12" name="class" id="class12">
+        <label for="class12">Class 12</label><br>
+        <br>
+        <label for="subject">Subject:</label><br>
+        <select name="subject" id="subject">
+            <option value="biology">Biology</option>
+            <option value="physics">Physics</option>
+            <option value="chemistry">Chemistry</option>
+        </select><br><br>
+        <label for="City">City:</label><br>
+        <select name="City" id="City">
+            <option value="Pokhara">Pokhara</option>
+            <option value="Kathmandu">Kathmandu</option>
+            <option value="Biratnagar">Biratnagar</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
